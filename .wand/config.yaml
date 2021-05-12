@@ -1,0 +1,13 @@
+name: charts
+organization: git@github.com:chimpwizards-charts
+dependencies:
+  - path: stable
+    git: git@github.com:chimpwizards-charts/stable.git
+    tags:
+      - charts
+      - stable      
+  - path: repository
+    git: git@github.com:chimpwizards-charts/repository.git
+    tags:
+      - charts
+      - stable      
